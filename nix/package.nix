@@ -34,7 +34,7 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "tether";
-  version = "0.2.18";
+  version = "0.3.2";
 
   src = lib.cleanSourceWith {
     name = "source";
